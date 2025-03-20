@@ -4,7 +4,7 @@ from ultralytics import YOLO
 from IPython.display import Image
 
 # Roboflow API Key and Project
-rf = Roboflow(api_key="Hm8mdFJnlkZnoorR3Uy8")
+rf = Roboflow(api_key="#")
 project = rf.workspace("-jwzpw").project("continuous_fire")
 dataset = project.version(6).download("yolov8")
 
